@@ -3,7 +3,7 @@
 - Investigate how many pages are recently created by bots vs humans
 - Show the time difference between a user (bot or human) registration and its latest create-page event. Many 15+ year old accounts still posting.
 
-## Helpful commands
+## Instructions
 1. Start docker containers with compose to start zookeeper, kafka, spark
 ```
 docker-compose up -d
@@ -27,3 +27,7 @@ $ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic wiki-chang
 - Runt data viz notebook up to while loop and allow to run "*"
 
 ![](./sample_data_graph_&_tables.png)
+
+--- 
+
+### Inspired by T. Cordon's repo
